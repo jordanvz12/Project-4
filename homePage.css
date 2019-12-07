@@ -124,15 +124,7 @@ main aside img {
 	max-width: 300px;
 }
 /* Styles for the footer */
-footer {
-	text-align: center;
-	color: #ffffff;
-	clear: both;
-	background-color: #84BE6A;
-	padding-bottom: 1em;
-	padding-top: 1em;
-}
-
+.footer {    position: fixed;    left: 0;    bottom: 0;    width: 100%;    background-color: aliceblue;    color: white;    text-align: center;    padding: 10px;    font-size: 0.5rem;}
 @media only screen and (min-width: 480px) {
 #mobile_menu {
 		display: block;
